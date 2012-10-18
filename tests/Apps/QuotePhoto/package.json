@@ -1,0 +1,35 @@
+{
+  "author": "Augustin Bralley - DataCosmos",
+  "name": "QuotePhoto",
+  "description": "Make photo/quote mashups.",
+  "version": "0.0.1",
+  "homepage": "http://auggernaut.com/quotePhoto",
+  "repository": {
+    "type": "app",
+    "title": "QuotePhoto",
+    "status": "stable",
+    "static": true,
+    "handle": "quotePhoto",
+    "uses": {
+      "services": [
+        "facebook",
+        "twitter",
+        "instagram",
+        "Linkedin"
+      ],
+      "types": [
+        "links",
+        "contacts",
+        "photos"
+      ]
+    },
+    "update": true,
+    "github": "https://github.com/auggernaut/locker",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=0.4.9"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
